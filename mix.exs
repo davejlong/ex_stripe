@@ -9,7 +9,7 @@ defmodule ExStripe.Mixfile do
      start_permanent: Mix.env == :prod,
      deps: deps(),
      test_coverage: [tool: ExCoveralls],
-     preferred_cli_env: ["coveralls": :test, "coveralls.detail": :test, "coveralls.post": :test],
+     preferred_cli_env: ["coveralls": :test],
      dialyzer: [
         # plt_file: "#{System.get_env("HOME")}/#{plt_filename}",
         flags: ["--no_native", "-Wno_match", "-Wno_return"]
@@ -30,6 +30,6 @@ defmodule ExStripe.Mixfile do
      {:ex_doc, "~> 0.11", only: [:dev, :test, :docs]},
      {:earmark, ">= 0.0.0", only: [:dev, :test, :docs]},
      {:inch_ex, ">= 0.0.0", only: :docs},
-     {:excoveralls, "~> 0.4", only: :test}]
+     {:excoveralls, "~> 0.5", only: :test}]
   end
 end
