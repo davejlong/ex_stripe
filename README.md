@@ -1,5 +1,8 @@
 # ExStripe
 
+[![Build Status](https://travis-ci.org/davejlong/ex_stripe.svg?branch=master)](https://travis-ci.org/davejlong/ex_stripe)
+[![Deps Status](https://beta.hexfaktor.org/badge/all/github/davejlong/ex_stripe.svg)](https://beta.hexfaktor.org/github/davejlong/ex_stripe)
+
 **TODO: Add description**
 
 ## Installation
